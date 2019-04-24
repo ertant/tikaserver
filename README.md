@@ -34,7 +34,7 @@ After docker image is executed you can call tika server with following rest call
 ### PDF text extraction
 
     PUT localhost:9998/tika HTTP/1.1
-    Content-Type: application/pdf.
+    Content-Type: application/pdf
     X-Tika-OCRLanguage: eng
 
     <pdf binary>
