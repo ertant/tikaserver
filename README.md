@@ -29,7 +29,7 @@ You can then use the following command (using the name you allocated in the buil
 
 ## Rest API
 
-After docker image is executed you can call tika server with following rest calls.
+After docker image is executed you can call tika server with following rest calls. X-Tika-OCRLanguage http header used to specify preferred tesseract OCR language. You can specify multiple languages like "eng+tur" 
 
 ### PDF text extraction
 
